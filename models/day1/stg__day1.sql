@@ -10,7 +10,7 @@ first_col AS (
         row_number() OVER (ORDER BY col1) AS rn,
         col1
     FROM source
-    ORDER BY col1 ASC
+    -- ORDER BY col1 ASC -- This is unecessary as we do a join on row number anyway so this order is not required.
 ),
 
 second_col AS (
@@ -18,7 +18,7 @@ second_col AS (
         row_number() OVER (ORDER BY col2) AS rn,
         col2
     FROM source
-    ORDER BY col2 ASC
+    -- ORDER BY col2 ASC -- This is unecessary as we do a join on row number anyway so this order is not required.
 )
 
 SELECT 
