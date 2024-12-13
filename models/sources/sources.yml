@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: advent_of_code
+    database: til_portfolio_projects  
+    schema: eh_aoc  
+    tables:
+      - name: raw__day3
