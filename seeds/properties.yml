@@ -9,3 +9,6 @@ seeds:
     config:
       delimiter: " "
 
+  - name: day5__rules
+    config:
+      delimiter: "|"
