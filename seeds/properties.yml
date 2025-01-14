@@ -4,8 +4,3 @@ seeds:
   - name: day1
     config: 
       delimiter: ","
-    
-  - name: day2
-    config:
-      delimiter: " "
-
